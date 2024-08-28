@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="https://i.ibb.co/zHCfRfg/img-modified.png" type="png">
+    <style>
+        .pdf {
+            width: 99.9%;
+            aspect-ratio: 4 / 3;
+        }
+    
+        .pdf{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            height: 60px;
+        }
+        @media (max-width : 760px){
+            .pdf{
+                aspect-ratio: 3/4;
+            }
+        }
+        @media (max-width : 437px){
+            .pdf{
+                aspect-ratio: 3/5;
+            }
+        }
+        @media (max-width : 351px){
+            .pdf{
+                aspect-ratio: 3/7;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>PORTFOLIO.</h1> 
+            <div class="contect_link">
+                <p>Contect Me</p>
+                <div><a href="/" style="color:rgb(78, 237, 100);font-size:18px; text-decoration:none;">Home</a></div>
+                <div class="icon"><a href="https://www.instagram.com/coding_code_abhi_/" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/abhishek-kumar-502b40324/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                <div class="icon"><a href="https://www.facebook.com/profile.php?id=61555703581430" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></div>
+            </div>
+        </nav>
+        <object class="pdf" 
+            data=
+"./CSS Notes.pdf"
+            width="800"
+            height="500">
+    <footer>
+        <p>@2024 Privacy policy</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
